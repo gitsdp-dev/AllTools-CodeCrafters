@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    
+    <linearGradient id="accentCyan" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+    
+    <linearGradient id="accentBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#60a5fa" />
+    </linearGradient>
+    
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+
+  <g filter="url(#dropShadow)">
+    <rect x="130" y="240" width="75" height="142" rx="24" fill="url(#accentBlue)" />
+    
+    <rect x="307" y="240" width="75" height="142" rx="24" fill="url(#accentBlue)" />
+    
+    <rect x="130" y="240" width="252" height="68" rx="24" fill="url(#accentBlue)" />
+    
+    <rect x="218" y="130" width="76" height="76" rx="26" fill="url(#accentCyan)" />
+    
+    <rect x="221" y="252" width="70" height="44" rx="14" fill="#0f172a" />
+    <circle cx="256" cy="274" r="8" fill="url(#accentCyan)" />
+  </g>
+</svg>
